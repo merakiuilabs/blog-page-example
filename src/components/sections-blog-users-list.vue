@@ -2,7 +2,7 @@
     <div class="flex flex-col bg-white max-w-sm px-6 py-4 mx-auto rounded-lg shadow-lg">
         <ul>
             <li class="flex items-center">
-                <img class="w-10 h-10 object-cover rounded-full mr-2" src="https://images.unsplash.com/photo-1502791451862-7bd8c1df43a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="avatar">
+                <img class="w-10 h-10 object-cover rounded-full mr-2" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80" alt="avatar">
                 <p>
                     <a class="text-gray-700 font-bold mx-1" href="#">Alex John</a>
                     <span class="text-gray-700 text-sm font-light">Created 23 Posts</span>
