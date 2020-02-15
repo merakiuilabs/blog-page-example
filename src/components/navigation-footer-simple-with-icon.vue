@@ -1,5 +1,5 @@
 <template>
-    <footer class="flex justify-center px-6 py-2 bg-gray-800 text-gray-100">
+    <footer class="flex justify-center items-end px-6 py-8 bg-gray-700 text-gray-100 h-64 -mt-32">
         <div class="flex flex-col justify-between items-center container md:flex-row">
             <a class="text-2xl font-bold" href="#">Brand</a>
             <p class="py-2 md:py-0">All rights reserved 2020.</p>
@@ -25,7 +25,5 @@
 </template>
 
 <script>
-    export default {
-        props: ['data']
-    }
+    export default {}
 </script>
