@@ -1,11 +1,11 @@
 <template>
-    <div id="app" class="font-roboto bg-gray-100">
+    <div id="app" class="font-roboto">
         <navbar></navbar>
         <div class="flex justify-center">
             <div class="flex px-6 py-8 container">
                 <div class="w-full lg:w-8/12">
                     <div class="flex items-center justify-between">
-                        <h1 class="text-xl font-bold text-gray-700 md:2xl">Post</h1>
+                        <h1 class="text-xl font-bold text-gray-700 md:text-2xl">Post</h1>
                         <post-filter></post-filter>
                     </div>
                     <div class="mt-6" v-for="post in posts" :key="post.id">
@@ -17,26 +17,21 @@
                 </div>
                 <div class="pl-8 w-4/12 hidden lg:block">
                     <div>
-                        <h1 class="text-xl font-bold text-gray-700 md:2xl">Authors</h1>
+                        <h1 class="text-xl font-bold text-gray-700">Authors</h1>
                         <users-list></users-list>
                     </div>
                     <div class="mt-10">
-                        <h1 class="text-xl font-bold text-gray-700 md:2xl">Categories</h1>
+                        <h1 class="text-xl font-bold text-gray-700">Categories</h1>
                         <categories></categories>
                     </div>
                     <div class="mt-10">
-                        <h1 class="text-xl font-bold text-gray-700 md:2xl">Recent Post</h1>
+                        <h1 class="text-xl font-bold text-gray-700">Recent Post</h1>
                         <recent-post></recent-post>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="my-10 flex justify-center px-8 md:px-4">
-            <forms-subscribe-newsletter/>
-        </div>
-
-        <simple-footer/>
+        <simple-footer></simple-footer>
     </div>
 </template>
 
@@ -49,7 +44,6 @@
     import Categories from "./components/sections-categories-list";
     import RecentPost from "./components/sections-recent-article";
     import SimpleFooter from "./components/navigation-footer-simple-with-icon";
-    import FormsSubscribeNewsletter from "./components/forms-subscribe-newsletter";
 
     export default {
         name: 'app',
@@ -61,8 +55,7 @@
             UsersList,
             Categories,
             RecentPost,
-            SimpleFooter,
-            FormsSubscribeNewsletter
+            SimpleFooter
         },
         data() {
             return {
