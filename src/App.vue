@@ -1,31 +1,33 @@
 <template>
   <div id="app">
     <navbar></navbar>
-    <div class="flex px-6 py-8">
-      <div class="w-full lg:w-8/12">
-        <div class="flex items-center justify-between">
-          <h1 class="text-xl font-bold text-gray-700 md:2xl">Post</h1>
-          <post-filter></post-filter>
+    <div class="flex justify-center">
+      <div class="flex px-6 py-8 container">
+        <div class="w-full lg:w-8/12">
+          <div class="flex items-center justify-between">
+            <h1 class="text-xl font-bold text-gray-700 md:2xl">Post</h1>
+            <post-filter></post-filter>
+          </div>
+          <div class="mt-6" v-for="post in posts" :key="post.id">
+            <post :data="post"></post>
+          </div>
+          <div class="mt-8">
+            <Pagination></Pagination>
+          </div>
         </div>
-        <div class="mt-6" v-for="post in posts" :key="post.id">
-          <post :data="post"></post>
-        </div>
-        <div class="mt-8">
-          <Pagination></Pagination>
-        </div>
-      </div>
-      <div class="pl-8 w-4/12 hidden lg:block">
-        <div>
-          <h1 class="text-xl font-bold text-gray-700 md:2xl">Authors</h1>
-          <users-list></users-list>
-        </div>
-        <div class="mt-10">
-          <h1 class="text-xl font-bold text-gray-700 md:2xl">Categories</h1>
-          <categories></categories>
-        </div>
-        <div class="mt-10">
-          <h1 class="text-xl font-bold text-gray-700 md:2xl">Recent Post</h1>
-          <recent-post></recent-post>
+        <div class="pl-8 w-4/12 hidden lg:block">
+          <div>
+            <h1 class="text-xl font-bold text-gray-700 md:2xl">Authors</h1>
+            <users-list></users-list>
+          </div>
+          <div class="mt-10">
+            <h1 class="text-xl font-bold text-gray-700 md:2xl">Categories</h1>
+            <categories></categories>
+          </div>
+          <div class="mt-10">
+            <h1 class="text-xl font-bold text-gray-700 md:2xl">Recent Post</h1>
+            <recent-post></recent-post>
+          </div>
         </div>
       </div>
     </div>

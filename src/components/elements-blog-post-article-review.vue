@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-4xl px-10 py-6 bg-white rounded-lg shadow-lg">
+    <div class="max-w-4xl px-10 py-6 bg-white rounded-lg shadow-md">
         <div class="flex justify-between items-center">
             <span class="font-light text-gray-600">{{ data.date }}</span>
             <a class="px-2 py-1 bg-gray-600 text-gray-100 font-bold rounded hover:bg-gray-500" href="#">{{ data.tag }}</a>

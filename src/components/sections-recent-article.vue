@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col bg-white px-8 py-6 max-w-sm mx-auto rounded-lg shadow-lg">
+    <div class="flex flex-col bg-white px-8 py-6 max-w-sm mx-auto rounded-lg shadow-md">
         <div class="flex justify-center items-center">
             <a class="px-2 py-1 bg-gray-600 text-sm text-green-100 rounded" href="#">Laravel</a>
         </div>

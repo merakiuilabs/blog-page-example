@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col bg-white max-w-sm px-6 py-4 mx-auto rounded-lg shadow-lg">
+    <div class="flex flex-col bg-white max-w-sm px-6 py-4 mx-auto rounded-lg shadow-md">
         <ul>
             <li class="flex items-center">
                 <img class="w-10 h-10 object-cover rounded-full mr-2" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80" alt="avatar">
