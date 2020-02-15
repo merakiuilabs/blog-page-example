@@ -1,5 +1,5 @@
 # Meraki Blog
-### Frist responsive Web App Build With Meraki UI... 
+### Frist responsive web app built with Meraki UI... 
 
 ## Project setup
 ### Clone Repo
