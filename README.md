@@ -1,5 +1,6 @@
-# Meraki Blog
-### Frist responsive web app built with Meraki UI... 
+## Apeiron Blog
+
+### Frist responsive web app built with apeiron components... 
 
 ## Project setup
 ### Clone Repo
