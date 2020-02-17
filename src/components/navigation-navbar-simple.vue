@@ -16,7 +16,7 @@
         <div class="flex flex-col md:flex-row" :class="isOpen ? 'block' : ['hidden' , 'md:block']">
             <a class="my-1 text-gray-800 border-b-4 border-transparent hover:border-gray-700 hover:font-bold md:mx-4 md:my-0" href="#">Home</a>
             <a class="my-1 text-gray-800 border-b-4 border-transparent hover:border-gray-700 hover:font-bold md:mx-4 md:my-0" href="#">Blog</a>
-            <a class="my-1 text-gray-800 border-b-4 border-transparent hover:border-gray-700 hover:font-bold md:mx-4 md:my-0" href="#">About us</a>
+            <a class="my-1 text-gray-800 border-b-4 border-transparent hover:border-gray-700 hover:font-bold md:ml-4 md:my-0" href="#">About us</a>
         </div>
         </div>
     </nav>

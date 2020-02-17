@@ -1,5 +1,5 @@
 <template>
-    <div class="w-32 relative">
+    <div class="relative">
         <select class="block appearance-none w-full bg-gray-300 text-gray-700 py-2 px-3 pr-8 rounded-lg leading-tight focus:outline-none md:px-4 md:py-3" id="grid-state">
             <option>Latest</option>
             <option>Last Week</option>
