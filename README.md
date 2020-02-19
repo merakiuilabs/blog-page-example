@@ -2,6 +2,8 @@
 
 ### Frist responsive web app built with Merak UI...
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/de2de530-340e-476f-bdad-11f657d8e01b/deploy-status)](https://app.netlify.com/sites/merakapp-blog/deploys)
+
 ## Project setup
 ### Clone Repo
 ```
