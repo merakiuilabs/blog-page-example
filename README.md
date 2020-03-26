@@ -7,7 +7,7 @@
 ## Project setup
 ### Clone Repo
 ```
-git clone git@github.com:nintles/blog.git
+git@github.com:merakiui/blog.git
 ```
 ### Open Folder
 ```
