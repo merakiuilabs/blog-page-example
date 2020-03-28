@@ -1,8 +1,9 @@
 <template>
     <div id="app" class="font-roboto bg-gray-100">
         <navbar></navbar>
-        <div class="flex justify-center">
-            <div class="flex px-6 py-8 container xl:px-0">
+
+        <div class="px-6 py-8">
+            <div class="flex justify-between container mx-auto">
                 <div class="w-full lg:w-8/12">
                     <div class="flex items-center justify-between">
                         <h1 class="text-xl font-bold text-gray-700 md:text-2xl">Post</h1>
@@ -15,22 +16,23 @@
                         <Pagination></Pagination>
                     </div>
                 </div>
-                <div class="pl-8 w-4/12 hidden lg:block">
-                    <div>
+                <div class="-mx-8 w-4/12 hidden lg:block">
+                    <div class="px-8">
                         <h1 class="mb-4 text-xl font-bold text-gray-700">Authors</h1>
                         <users-list></users-list>
                     </div>
-                    <div class="mt-10">
+                    <div class="mt-10 px-8">
                         <h1 class="mb-4 text-xl font-bold text-gray-700">Categories</h1>
                         <categories></categories>
                     </div>
-                    <div class="mt-10">
+                    <div class="mt-10 px-8">
                         <h1 class="mb-4 text-xl font-bold text-gray-700">Recent Post</h1>
                         <recent-post></recent-post>
                     </div>
                 </div>
             </div>
         </div>
+        
         <simple-footer></simple-footer>
     </div>
 </template>
