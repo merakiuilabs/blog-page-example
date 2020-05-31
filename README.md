@@ -1,4 +1,4 @@
-## Merak Blog
+## Meraki UI blog page
 
 Responsive blog page built it with Merak UI and Vue cli.
 
